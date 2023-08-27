@@ -8,26 +8,28 @@
     <title>Counterz</title>
   </head>
   <body>
-    <div class="grid place-content-center">
-      <h1>People entered:</h1>
-      <h1 class="text-xl" id="count-el">0</h1>
-      <br />
-      <button
-        class="border-4 px-2 py-2 border-green-400"
-        id="increment-btn"
-        onclick="increment()"
-      >
-        Increment
-      </button>
-      <button
-        class="border-4 px-6 py-2 border-red-400"
-        id="save-btn"
-        onclick="save()"
-      >
-        Save
-      </button>
-      <p>Previous entries:</p>
-      <p id="save-el"></p>
+    <div class="flex place-content-center">
+      <div class="">
+        <h1>People entered:</h1>
+        <h1 class="text-xl" id="count-el">0</h1>
+        <br />
+        <button
+          class="border-4 px-2 py-2 border-green-400 rounded-lg"
+          id="increment-btn"
+          onclick="increment()"
+        >
+          Increment
+        </button>
+        <button
+          class="border-4 px-6 py-2 border-red-400 rounded-lg"
+          id="save-btn"
+          onclick="save()"
+        >
+          Save
+        </button>
+        <p class="">Previous entries:</p>
+        <p id="save-el"></p>
+      </div>
     </div>
   </body>
 </html>
